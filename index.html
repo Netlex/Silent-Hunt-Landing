@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Silent Hunt</title>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #0a0a0a url('background.jpg') no-repeat center center/cover;
+      color: #ccc;
+      font-family: 'Segoe UI', sans-serif;
+      overflow-x: hidden;
+    }
+    header {
+      background: rgba(0,0,0,0.8);
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'UnifrakturCook', cursive;
+      color: #eaeaea;
+      font-size: 6rem;
+      margin: 0;
+    }
+    .intro {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 1rem;
+      background: rgba(20,20,20,0.9);
+      border-left: 4px solid crimson;
+      box-shadow: 0 0 30px #000;
+    }
+    .intro h2 {
+      color: crimson;
+      font-size: 2rem;
+    }
+    .section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: rgba(15,15,15,0.85);
+      box-shadow: 0 0 20px #000;
+    }
+    .section h3 {
+      color: #e74c3c;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+    .highlight {
+      background: rgba(50,0,0,0.5);
+      padding: 1rem;
+      border-left: 3px solid crimson;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: rgba(5,5,5,0.8);
+      font-size: 0.9rem;
+      color: #777;
+    }
+    a {
+      color: crimson;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Silent Hunt</h1>
+    <p>Multiplayer PvP Horror Survival — 4v4 Asymmetrical Tactics</p>
+  </header>
+
+  <section class="intro">
+    <h2>Идея</h2>
+    <p><strong>Silent Hunt</strong> — атмосферная PvP-игра 4 на 4, где игроки делятся на команды Людей и Монстров. Люди выживают, укрепляют позиции и создают ловушки. Монстры слепы, но видят шумы и охотятся. Каждое действие издаёт звук, который может выдать вас врагу.</p>
+  </section>
+
+  <section class="section">
+    <h3>Геймплей</h3>
+    <div class="grid">
+      <div class="highlight">
+        <h4>Люди (Команда A)</h4>
+        <ul>
+          <li>Третий вид от камеры</li>
+          <li>Сбор ресурсов и крафт оружия, ловушек</li>
+          <li>Баррикады, укрепления, совместная оборона</li>
+          <li>Шум — ваш враг. Действуйте тихо!</li>
+        </ul>
+      </div>
+      <div class="highlight">
+        <h4>Монстры (Команда B)</h4>
+        <ul>
+          <li>Первое лицо, слепота — только звуковое зрение</li>
+          <li>Эхо-импульсы и следы шагов</li>
+          <li>Атакуйте по звуку, флангуйте, координируйтесь</li>
+          <li>Уникальные способности: прыжок, рёв и т.д.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h3>Игровой Цикл</h3>
+    <ul>
+      <li><strong>Начало:</strong> команды появляются в разных точках</li>
+      <li><strong>Поиск и Подготовка:</strong> сбор ресурсов, постройка базы</li>
+      <li><strong>Охота:</strong> монстры отслеживают звуки</li>
+      <li><strong>Стычка:</strong> защита укрытий против атак монстров</li>
+      <li><strong>Победа:</strong> выжить или истребить</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h3>Карты и Атмосфера</h3>
+    <p>Процедурная генерация, заброшенные здания, опасности окружения. Визуальный стиль — готика и постапокалипсис. Свет и звук играют ключевую роль в стратегии.</p>
+  </section>
+
+  <section class="section">
+    <h3>Тактика</h3>
+    <p><strong>Люди:</strong> тихие передвижения, укрепления, заманивание.</p>
+    <p><strong>Монстры:</strong> сканирование, атаки из тьмы, координация.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Inonia Games — Silent Hunt</p>
+  </footer>
+</body>
+</html>
